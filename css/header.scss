@@ -1,0 +1,30 @@
+// HEADER
+
+header {
+    background-color: black;
+    div#slider {
+        text-align: center;
+
+        div {
+            img {
+                background-size: cover;
+                width: 100vw;
+                position: relative;
+            }
+            h3 {
+                position: absolute;
+                top: 70%;
+            }
+        }
+    }
+}
+
+ul.slick-dots {
+    bottom: 0;
+}
+
+.slick-dotted.slick-slider {
+
+    margin-bottom: 0px;
+
+}

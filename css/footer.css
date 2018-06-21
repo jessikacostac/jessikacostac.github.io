@@ -1,0 +1,10 @@
+footer div {
+  height: 100px;
+  background-color: gray;
+  text-align: center;
+}
+
+footer div p {
+  padding: 5px 0;
+}
+/*# sourceMappingURL=footer.css.map */

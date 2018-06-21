@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,500i,700,700i");
+body {
+  margin: 0;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 16;
+  color: #364061;
+}
+
+ul li {
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+p, h1, h2, h3, h4 {
+  margin: 0;
+  text-align: center;
+}
+
+div.title {
+  padding: 30px;
+}
+
+div.title h2 {
+  font-size: 2em;
+  padding: 5px;
+}
+
+div.title p {
+  font-size: 18px;
+  padding: 5px;
+}
+
+.btn {
+  text-align: center;
+  padding: 5px;
+  background-color: #364061;
+  color: white;
+  font-weight: 500;
+  border-radius: 5px;
+  display: block;
+  margin: 0 auto;
+  width: 70%;
+  margin: 10px;
+}
+
+nav div.barra {
+  background: linear-gradient(to bottom, #355c7d, #6c5b7b, #c06c84);
+  height: 40px;
+}
+
+nav div.barra div img {
+  width: 35px;
+}
+
+nav div.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav div.menu img {
+  width: 350px;
+}
+
+nav div.menu ul {
+  display: flex;
+}
+
+nav div.menu ul li {
+  margin: 0 20px;
+}
+
+nav div.menu ul li a {
+  font-size: 1.3em;
+  color: #364061;
+  font-weight: 700;
+}
+
+nav div.menu ul li a:hover {
+  color: #6C5B7B;
+}
+
+header {
+  background-color: black;
+}
+
+header div#slider {
+  text-align: center;
+}
+
+header div#slider div img {
+  background-size: cover;
+  width: 100vw;
+  position: relative;
+}
+
+header div#slider div h3 {
+  position: absolute;
+  top: 70%;
+}
+
+ul.slick-dots {
+  bottom: 0;
+}
+
+.slick-dotted.slick-slider {
+  margin-bottom: 0px;
+}
+
+section.info {
+  background: linear-gradient(to bottom, #355c7d, #6c5b7b, #c06c84);
+}
+
+section.info div {
+  width: 80%;
+  text-align: center;
+  padding: 30px 0;
+  margin: 0 auto;
+}
+
+section.info div div.cards {
+  padding: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+section.carreiras {
+  padding: 50px 0;
+}
+
+section.carreiras div {
+  width: 80%;
+  margin: 0 auto;
+}
+
+section.carreiras div div.cards {
+  display: flex;
+  justify-content: space-around;
+}
+
+section.carreiras div div.cards div {
+  background-color: beige;
+  width: 30%;
+  box-shadow: 0px 0px 9px 1px rgba(0, 0, 0, 0.75);
+}
+
+section.carreiras div div.cards div:hover {
+  box-shadow: 0px 0px 9px 1px blue;
+  width: 35%;
+}
+
+section.carreiras div div.cards div img {
+  width: 100%;
+}
+
+section.carreiras div div.cards div p {
+  padding: 10px 5px;
+}
+
+.carreira-front {
+  display: none;
+}
+
+footer div {
+  height: 100px;
+  background-color: gray;
+  text-align: center;
+}
+
+footer div p {
+  padding: 5px 0;
+}
+/*# sourceMappingURL=main.css.map */

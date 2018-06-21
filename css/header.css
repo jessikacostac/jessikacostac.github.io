@@ -1,0 +1,27 @@
+header {
+  background-color: black;
+}
+
+header div#slider {
+  text-align: center;
+}
+
+header div#slider div img {
+  background-size: cover;
+  width: 100vw;
+  position: relative;
+}
+
+header div#slider div h3 {
+  position: absolute;
+  top: 70%;
+}
+
+ul.slick-dots {
+  bottom: 0;
+}
+
+.slick-dotted.slick-slider {
+  margin-bottom: 0px;
+}
+/*# sourceMappingURL=header.css.map */

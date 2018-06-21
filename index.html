@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> <Developing Divas> </title>
+    <link rel="icon" href="./img/logo/bathroom-2028084_1280.png" sizes="64x64">
+    <link rel="stylesheet" type="text/css" href="./slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css"/>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <nav>
+        <div class="barra">
+            <div>
+                <a href="#">                
+                    <img src="./img/idea.png" alt="">
+                </a>
+            </div>
+        </div>
+        <div class="menu">
+            <a href="index.html"><img class="logo" src="./img/logo/logo-developing-divas.png" alt="imagem do logo, representado por..."></a>
+            <div>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="#carreira">Carreiras em Tecnologia</a></li>
+                    <li><a href="acessibilidade-web.html">Acessibilidade Web</a></li>
+                    <li><a href="comunidades-eventos.html">Comunidade/Eventos</a></li>
+                </ul>
+            </div>
+        </div>
+        
+    </nav>
+    <header>
+        <div id="slider">
+            <div>
+                <img src="./img/slider1.jpg" alt="Imagem de um rosto de uma mulher coberto pela metade do lado esquerdo por uma sombra de números binários, e ela está sendo apontada por um braço humano de um lado e do outro por um braço robótico. ">
+                <h3>Lorem teste 1</h3>
+            </div>
+            <div>
+                <img src="./img/mulher-tech.jpg" alt="Descrição da foto do carousel">
+                <h3>Lorem teste 2</h3>
+            </div>
+            <div>
+                <img src="./img/web-acessibilty_blog.jpg" alt="Descrição da foto do carousel">
+                <h3>Precisamos falar sobre <strong>Acessibilidade Web</strong></h3>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="info">
+            <div>
+                <h2>Titulo da sessão</h2>
+                <p>Explicação - Dados - Estastísticas</p>
+                <div class="cards">
+                    <div>
+                        <h3>Titulo</h3>
+                        <p><img src="" alt="">_____________</p>
+                        <p>67%</p>
+                    </div>
+                    <div>
+                        <h3>Titulo</h3>
+                        <p><img src="" alt="">_____________</p>
+                        <p>67%</p>
+                    </div>
+                    <div>
+                        <h3>Titulo</h3>
+                        <p><img src="" alt="">_____________</p>
+                        <p>67%</p>
+                    </div>
+                </div>    
+            </div>
+         </section>
+
+        <section id="carreira" class="carreiras">
+            <div>
+                <div class="title">
+                    <h2>Carreiras em Tecnologia</h2>
+                    <p>Saiba mais sobre algumas das áreas dentro de tecnologia que você pode atuar!</p>
+                </div>
+                <div class="cards">
+                    <div class="front">
+                        <img src="./img/front-end.png.png" alt="">
+                        <h3>Front-End</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident tenetur dignissimos rerum perspiciatis nisi quidem?</p>
+                        <a class="btn" href="#">Saiba mais</a>
+                    </div>
+                    <div>
+                        <img src="./img/back-end.jpg" alt="">
+                        <h3>Back-End</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident tenetur dignissimos rerum perspiciatis nisi quidem?</p>
+                        <a class="btn" href="#">Saiba mais</a>
+                    </div>
+                    <div>
+                        <img src="./img/android.png" alt="">
+                        <h3>Mobile</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident tenetur dignissimos rerum perspiciatis nisi quidem?</p>
+                        <a class="btn" href="#">Saiba mais</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="exibir-carreira">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, nulla repellendus quaerat aperiam facere, quisquam dicta cupiditate facilis excepturi doloremque nostrum ullam molestias animi ex vitae. Expedita facere nostrum quod.</p>
+        </section>
+
+
+    </main>
+    <footer>
+        <div>
+            <p>Site feito por <a href="#">Jéssika Costa Cardoso</a> Projeto desenvolvido para fins de estudo na {Reprograma}</p>
+        </div>
+    </footer>
+
+    <script src="./js/jquery-3.2.1.min.js"></script>
+    <script src="./slick/slick.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#slider").slick({
+                autoplay: true,
+                autoplaySpeed: 3000,
+                arrows: false,
+                dots: true
+            });
+
+            const front = document.querySelector(".front")
+    	    front.addEventListener("click", function(){
+                const addClasse = document.querySelector("#exibir-carreira")
+                addClasse.className="appear"
+            })
+
+
+
+
+
+        });
+    </script>
+</body>
+
+</html>

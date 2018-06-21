@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,500i,700,700i');
+
+// background: linear-gradient(to bottom, #f0c27b, #4b1248); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+// background: linear-gradient(to top, #f0c27b, #4b1248); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+//background: linear-gradient(to top, #c04848, #480048);
+
+//background: linear-gradient(to bottom, #355c7d, #6c5b7b, #c06c84);
+
+// tons de azul
+//#364061
+
+// #3f4c6b
+// #606c88
+
+
+body {
+    margin: 0;
+    // background-color: red;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16;
+    color: #364061;
+}
+
+ul {
+
+    li {
+        padding: 0;
+        list-style: none;
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+p, h1, h2, h3, h4 {
+    margin: 0;
+    text-align: center;
+}
+
+
+div.title {
+    padding: 30px;
+    h2 {
+        font-size: 2em;
+        padding: 5px;
+    }
+
+    p {
+        font-size: 18px;
+        padding: 5px;
+    }
+}
+
+.btn {
+    text-align: center;
+    padding: 5px;
+    background-color: #364061;
+    color: white;
+    font-weight: 500;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+    margin: 10px;
+
+}
+
+

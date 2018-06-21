@@ -1,0 +1,48 @@
+//  NAV 
+nav {
+    div.barra {
+        background: linear-gradient(to bottom, #355c7d, #6c5b7b, #c06c84);
+       // background: linear-gradient(to top, #c04848, #480048);
+       //background: linear-gradient(to bottom, #f0c27b, #4b1248);
+       // background: linear-gradient(to top, #f0c27b, #4b1248);
+        // background-color: #364061;
+        height: 40px;
+        div {
+            img  {
+                width: 35px;
+            }
+        }
+    }
+
+    div.menu {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        img {
+            width: 350px;
+        }
+
+        ul {
+            display: flex;
+
+            li {
+                margin: 0 20px;
+
+                a {
+                    font-size: 1.3em;
+                    color: #364061;
+                    font-weight: 700;
+
+                    &:hover {
+                        color: #6C5B7B;
+                    }
+                }
+            }
+        }
+    }
+    
+}
+
+
+

@@ -1,0 +1,41 @@
+section.carreiras {
+  padding: 50px 0;
+}
+
+section.carreiras div {
+  width: 80%;
+  margin: 0 auto;
+}
+
+section.carreiras div div.cards {
+  display: flex;
+  justify-content: space-around;
+}
+
+section.carreiras div div.cards div {
+  background-color: beige;
+  width: 30%;
+  box-shadow: 0px 0px 9px 1px rgba(0, 0, 0, 0.75);
+}
+
+section.carreiras div div.cards div:hover {
+  box-shadow: 0px 0px 9px 1px blue;
+  width: 35%;
+}
+
+section.carreiras div div.cards div img {
+  width: 100%;
+}
+
+section.carreiras div div.cards div p {
+  padding: 10px 5px;
+}
+
+#exibir-carreira {
+  display: none;
+}
+
+main section.appear {
+  display: block;
+}
+/*# sourceMappingURL=section-carreiras.css.map */
