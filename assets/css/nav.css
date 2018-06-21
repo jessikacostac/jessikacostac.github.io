@@ -1,20 +1,26 @@
 nav div.barra {
-  background: linear-gradient(to bottom, #355c7d, #6c5b7b, #c06c84);
+  background-color: #2d3e50;
   height: 40px;
 }
 
+nav div.barra div {
+  display: flex;
+  justify-content: flex-end;
+}
+
 nav div.barra div img {
-  width: 35px;
+  height: 70%;
 }
 
 nav div.menu {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 20px 0;
 }
 
 nav div.menu img {
-  width: 300px;
+  width: 260px;
 }
 
 nav div.menu ul {
