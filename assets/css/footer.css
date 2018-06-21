@@ -1,9 +1,19 @@
 footer div {
-  background-color: gray;
+  background-color: #2d3e50;
   margin: 0 auto;
 }
 
+footer div div.barra {
+  display: flex;
+  justify-content: right;
+}
+
+footer div div.barra img {
+  margin-top: -30px;
+}
+
 footer div p {
+  color: white;
   padding: 30px 0;
 }
 /*# sourceMappingURL=footer.css.map */

@@ -1,18 +1,45 @@
-section.info {
+section.missao {
   margin-top: 5%;
   background: #2d3e50;
   color: #ffffff;
 }
 
-section.info div img {
+section.missao div.barra img {
   margin-top: -30px;
 }
 
-section.info div div.cards {
+section.missao h2 {
+  padding: 50px 0;
+}
+
+section.missao div.call-to-action {
+  margin: 0 auto;
+  padding-bottom: 50px;
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+section.missao div.call-to-action div.title {
+  width: 40%;
+  background: #273a4e;
+  border-radius: 10px;
+}
+
+section.missao div.call-to-action div.title div.cards {
   width: 80%;
-  padding: 30px;
+  padding: 10px;
   display: flex;
   justify-content: center;
   margin: 0 auto;
+}
+
+section.missao div.call-to-action div.title div.cards img {
+  width: 120px;
+}
+
+section.missao div.call-to-action div.title div.cards img.acess {
+  border-radius: 100%;
 }
 /*# sourceMappingURL=section-info.css.map */

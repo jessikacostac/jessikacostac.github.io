@@ -1,8 +1,18 @@
 footer {
     div {
-        background-color: gray;
+        background-color:#2d3e50;
         margin:  0 auto;
+
+        div.barra {
+            display: flex;
+            justify-content: right;
+
+            img{
+                margin-top: -30px;
+            }
+        }
         p {
+            color: white;
             padding: 30px 0;
         }
     }
