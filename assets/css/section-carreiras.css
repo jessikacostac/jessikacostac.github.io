@@ -16,15 +16,20 @@ section.carreiras div div.cards div {
   background-color: beige;
   width: 30%;
   box-shadow: 0px 0px 9px 1px rgba(0, 0, 0, 0.75);
+  padding-bottom: 20px;
 }
 
 section.carreiras div div.cards div:hover {
   box-shadow: 0px 0px 9px 1px blue;
-  width: 35%;
+  width: 33%;
 }
 
 section.carreiras div div.cards div img {
   width: 100%;
+}
+
+section.carreiras div div.cards div h3 {
+  padding: 10px 0 0;
 }
 
 section.carreiras div div.cards div p {
@@ -35,7 +40,7 @@ section.carreiras div div.cards div p {
   display: none;
 }
 
-main section.appear {
+.appear {
   display: block;
 }
 /*# sourceMappingURL=section-carreiras.css.map */
