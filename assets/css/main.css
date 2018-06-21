@@ -46,10 +46,6 @@ div.title p {
   width: 70%;
 }
 
-nav {
-  padding: 20px 0;
-}
-
 nav div.barra {
   background-color: #2d3e50;
   height: 40px;
@@ -68,6 +64,7 @@ nav div.menu {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 20px 0;
 }
 
 nav div.menu img {
@@ -120,20 +117,21 @@ ul.slick-dots {
 }
 
 section.info {
+  margin-top: 5%;
   background: #2d3e50;
+  color: #ffffff;
 }
 
-section.info div {
-  width: 80%;
-  text-align: center;
-  padding: 30px 0;
-  margin: 0 auto;
+section.info div img {
+  margin-top: -30px;
 }
 
 section.info div div.cards {
+  width: 80%;
   padding: 30px;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  margin: 0 auto;
 }
 
 section.carreiras {
