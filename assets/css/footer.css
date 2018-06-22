@@ -5,7 +5,7 @@ footer div {
 
 footer div div.barra {
   display: flex;
-  justify-content: right;
+  justify-content: flex-end;
 }
 
 footer div div.barra img {

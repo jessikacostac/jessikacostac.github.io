@@ -21,10 +21,24 @@ section.missao div.call-to-action {
   align-items: center;
 }
 
+@media (max-width: 768px) {
+  section.missao div.call-to-action {
+    width: 90%;
+    display: block;
+  }
+}
+
 section.missao div.call-to-action div.title {
   width: 40%;
   background: #273a4e;
   border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  section.missao div.call-to-action div.title {
+    width: 80%;
+    margin: 0 auto;
+  }
 }
 
 section.missao div.call-to-action div.title div.cards {

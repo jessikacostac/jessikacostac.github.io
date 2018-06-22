@@ -26,4 +26,9 @@ section.front-menu div.cards div.title {
   background: #273a4e;
   border-radius: 10px;
 }
+
+section.front-menu div.cards div.title:hover {
+  box-shadow: 0px 0px 9px 1px #ffffff;
+  width: 25%;
+}
 /*# sourceMappingURL=front.css.map */

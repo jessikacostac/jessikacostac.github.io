@@ -11,9 +11,13 @@ nav {
         div {
             display: flex;
             justify-content: flex-end;
+
             img  {
-                
                 height: 70%;
+
+                @media (max-width: 768px) {
+                    height: 30px;
+                }
             }
         }
      }
@@ -24,12 +28,19 @@ nav {
         justify-content: space-between;
         padding: 20px 0;
 
-        img {
-            width: 260px;
+        img.logo {
+            width: 25%;
+            @media (max-width: 768px) {
+                width: 50%;
+            }
         }
 
         ul {
             display: flex;
+            @media (max-width: 768px) {
+                display: none;
+            }
+
 
             li {
                 margin: 0 20px;
@@ -40,14 +51,27 @@ nav {
                     font-weight: 700;
 
                     &:hover {
-                        color: #6C5B7B;
+                        color: #dda0bb;
                     }
                 }
             }
         }
+
+        div.menu-hamburguer {
+
+            img {
+            width: 100px;
+            width: 50px;
+            padding: 0 20px;
+            display: none;
+
+            @media (max-width: 768px) {
+                display: block;
+            }
+        }
+        }
     }
     
 }
-
 
 

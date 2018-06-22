@@ -22,10 +22,22 @@ section.missao {
         justify-content: space-around;
         align-items: center;
 
+        @media (max-width: 768px) {
+            width: 90%;
+            display: block;
+        }
+
         div.title {
             width: 40%;
             background: #273a4e;
             border-radius: 10px;
+
+            @media (max-width: 768px) {
+                width: 80%;
+                margin: 0 auto;
+
+            }
+            
 
             div.cards {
                 width: 80%;

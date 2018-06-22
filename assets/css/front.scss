@@ -27,6 +27,13 @@ section.front-menu {
             background: #273a4e;
             border-radius: 10px;
 
+            &:hover {
+                box-shadow: 0px 0px 9px 1px #ffffff;
+                width: 25%;
+
+            }
+            
+
         }
 
     }
