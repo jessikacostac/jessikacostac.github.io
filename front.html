@@ -29,14 +29,15 @@
                         <a href="index.html">Home</a>
                     </li>
                     <li>
-                        <a href="#carreira">Carreiras em Tecnologia</a>
+                        <a href="index.html#carreira">Carreiras em Tecnologia</a>
                     </li>
                     <li>
                         <a href="acessibilidade-web.html">Acessibilidade Web</a>
                     </li>
                 </ul>
             </div>
-            <div ><img class="menu-hamburguer" src="./assets/img/menu-hamburguer.png" alt="">  </div>
+            <div class="icon-menu">
+                <img class="menu-hamburguer" src="./assets/img/menu-hamburguer.png" alt=""> </div>
         </div>
     </nav>
     <header>
@@ -44,8 +45,6 @@
             <div>
                 <img src="./assets/img/linguagens.png" alt="Imagem de um rosto de uma mulher coberto pela metade do lado esquerdo por uma sombra de números binários, e ela está sendo apontada por um braço humano de um lado e do outro por um braço robótico. ">
                 <div class="title">
-                    <h2>Desenvolvimento Front-End</h2>
-                    <p>Saiba mais sobre algumas das áreas dentro de tecnologia que você pode atuar!</p>
                 </div>
             </div>
         </div>
@@ -56,6 +55,8 @@
                 <img src="./assets/img/barra-section.png" alt="">
             </div>
             <h2>Desenvolvimento Front-End</h2>
+            <p> A desenvolvedora front-end é responsável por “dar vida” à interface. Trabalha com a parte da aplicação que interage
+                diretamente com o usuário. Por isso, é importante que também se preocupe com a experiência do usuário. </p>
             <div class="cards">
                 <div class="title">
                     <p>Profissão</p>
@@ -69,10 +70,79 @@
                 </div>
             </div>
         </section>
-        <section>
-            <p style="height: 500px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus soluta ab, recusandae nemo nesciunt, voluptates neque ullam error eligendi quas, omnis necessitatibus consectetur dicta eveniet ea at delectus aperiam porro?
+        <section class="items">
+            <article class="profissão">
+                <h3>Carreira em Desenvolvimento Front-end</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, corrupti. Commodi, quo animi! Quod corporis
+                    voluptates quisquam expedita a ipsam autem nemo fugit earum, pariatur dignissimos sapiente quae minus
+                    laboriosam!
+                </p>
+                <h3> Mercado de Trabalho</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat ullam consequuntur eaque dignissimos optio
+                    quia officia numquam mollitia veniam, voluptatum totam illum sunt adipisci incidunt beatae ab. Quibusdam,
+                    corrupti? In!</p>
+                <h3> Tipos de Trabalho</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat ullam consequuntur eaque dignissimos optio
+                    quia officia numquam mollitia veniam, voluptatum totam illum sunt adipisci incidunt beatae ab. Quibusdam,
+                    corrupti? In!</p>
+            </article>
+            <article class="estudos">
+                <h2>Cursos e Materiais para estudo</h2>
+                <!-- <form>
+                    <input type="text" placeholder="Busca">
+                </form> -->
+                <div class="cursos">
+                    <div>
+                        <img src="./assets/img/front-end.png.png" alt="">
+                        <h3>
+                            <a href="#"> Curso Gratuito de HTML/CSS</a>
+                        </h3>
+                    </div>
+                    <div>
+                        <img src="./assets/img/front-end.png.png" alt="">
+                        <h3>
+                            <a href="#"> Curso Gratuito de HTML/CSS</a>
+                        </h3>
+                    </div>
+                    <div>
+                        <img src="./assets/img/front-end.png.png" alt="">
+                        <h3>
+                            <a href="#"> Curso Gratuito de HTML/CSS</a>
+                        </h3>
+                    </div>
+                    <div>
+                        <img src="./assets/img/front-end.png.png" alt="">
+                        <h3>
+                            <a href="#"> Curso Gratuito de HTML/CSS</a>
+                        </h3>
+                    </div>
+                    <div>
+                        <img src="./assets/img/front-end.png.png" alt="">
+                        <h3>
+                            <a href="#"> Curso Gratuito de HTML/CSS</a>
+                        </h3>
+                    </div>
+                    <div>
+                        <img src="./assets/img/front-end.png.png" alt="">
+                        <h3>
+                            <a href="#"> Curso Gratuito de HTML/CSS</a>
+                        </h3>
+                    </div>
+                </div>
 
-            </p>
+
+                <!-- <h3><a href="#"> Curso Gratuito de HTML/CSS</a></h3>
+                <h3><a href="#"> Curso Gratuito de HTML/CSS</a></h3>
+                <h3><a href="#"> Curso Gratuito de HTML/CSS</a></h3> -->
+
+            </article>
+            <article class="duvidas">
+                <h2>Tem dúvidas? Manda que a gente te ajuda!</h2>
+                <form>
+                    <textarea name="duvida" id="duvida" cols="30" rows="10"></textarea>
+                    <input type="submit">
+                </form>
+            </article>
         </section>
     </main>
 
@@ -88,36 +158,7 @@
 
     <script src="./assets/js/jquery-3.2.1.min.js"></script>
     <script src="./assets/slick/slick.min.js"></script>
-    <script>
-        $(document).ready(function () {
-            $("#slider").slick({
-                autoplay: true,
-                autoplaySpeed: 3000,
-                arrows: false,
-                dots: true
-            });
-
-            const exibirCarreira = function () {
-                const addStyle = document.querySelector("#exibir-carreira")
-                addStyle.style.display = "block"
-            }
-
-            const front = document.querySelector(".front")
-            front.addEventListener("click", function () {
-                exibirCarreira()
-            })
-
-            const back = document.querySelector(".back")
-            back.addEventListener("click", function () {
-                exibirCarreira()
-            })
-
-            const mobile = document.querySelector(".mobile")
-            mobile.addEventListener("click", function () {
-                exibirCarreira()
-            })
-        })
-    </script>
+    <script src="./assets/js/script-front.js"></script>
 </body>
 
 </html>

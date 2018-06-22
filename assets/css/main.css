@@ -366,6 +366,10 @@ footer div p {
   padding: 30px 0;
 }
 
+footer div p a {
+  color: white;
+}
+
 section.front-menu {
   margin-top: 5%;
   background: #2d3e50;
@@ -374,6 +378,12 @@ section.front-menu {
 
 section.front-menu div.barra img {
   margin-top: -30px;
+}
+
+@media (max-width: 768px) {
+  section.front-menu div.barra img {
+    height: 30px;
+  }
 }
 
 section.front-menu h2 {
@@ -398,5 +408,89 @@ section.front-menu div.cards div.title {
 section.front-menu div.cards div.title:hover {
   box-shadow: 0px 0px 9px 1px #ffffff;
   width: 25%;
+}
+
+section.items article {
+  box-shadow: 0px 0px 9px 1px gray;
+  width: 70%;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+section.items article h3 {
+  padding: 30px 0 0;
+}
+
+input {
+  display: block;
+  margin: 0 auto;
+  width: 400px;
+  border-radius: 5px;
+  line-height: 2;
+}
+
+textarea {
+  display: block;
+  margin: 0 auto;
+  width: 400px;
+  border-radius: 5px;
+  line-height: 2;
+}
+
+div.cursos {
+  display: flex;
+  justify-content: space-around;
+}
+
+div.cursos div {
+  width: 10%;
+  margin: 10px;
+}
+
+div.cursos div img {
+  width: 100%;
+}
+
+div.cursos div a {
+  font-size: 14px;
+}
+
+section.front-menu {
+  margin-top: 5%;
+  background: #2d3e50;
+  color: #ffffff;
+}
+
+section.front-menu div.barra img {
+  margin-top: -30px;
+}
+
+@media (max-width: 768px) {
+  section.front-menu div.barra img {
+    height: 30px;
+  }
+}
+
+section.front-menu h2 {
+  padding: 50px 0;
+}
+
+section.front-menu p {
+  padding: 30px 0;
+  font-size: 1.2;
+  font-weight: 500i;
+}
+
+section.items article {
+  width: 70%;
+  margin: 0 auto;
+}
+
+section.items article h3 {
+  padding: 30px 0 0;
+}
+
+div.video {
+  text-align: center;
 }
 /*# sourceMappingURL=main.css.map */

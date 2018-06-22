@@ -1,0 +1,39 @@
+section.front-menu {
+  margin-top: 5%;
+  background: #2d3e50;
+  color: #ffffff;
+}
+
+section.front-menu div.barra img {
+  margin-top: -30px;
+}
+
+@media (max-width: 768px) {
+  section.front-menu div.barra img {
+    height: 30px;
+  }
+}
+
+section.front-menu h2 {
+  padding: 50px 0;
+}
+
+section.front-menu p {
+  padding: 30px 0;
+  font-size: 1.2;
+  font-weight: 500i;
+}
+
+section.items article {
+  width: 70%;
+  margin: 0 auto;
+}
+
+section.items article h3 {
+  padding: 30px 0 0;
+}
+
+div.video {
+  text-align: center;
+}
+/*# sourceMappingURL=acessibilidade.css.map */
