@@ -1,0 +1,29 @@
+section.front-menu {
+  margin-top: 5%;
+  background: #2d3e50;
+  color: #ffffff;
+}
+
+section.front-menu div.barra img {
+  margin-top: -30px;
+}
+
+section.front-menu h2 {
+  padding: 50px 0;
+}
+
+section.front-menu div.cards {
+  margin: 0 auto;
+  padding-bottom: 50px;
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+section.front-menu div.cards div.title {
+  width: 22%;
+  background: #273a4e;
+  border-radius: 10px;
+}
+/*# sourceMappingURL=front.css.map */
