@@ -15,6 +15,7 @@ nav div.barra div img {
 @media (max-width: 768px) {
   nav div.barra div img {
     height: 30px;
+    margin-top: 23px;
   }
 }
 
@@ -26,7 +27,7 @@ nav div.menu {
 }
 
 nav div.menu img.logo {
-  width: 25%;
+  width: 250px;
 }
 
 @media (max-width: 768px) {
@@ -49,6 +50,12 @@ nav div.menu ul li {
   margin: 0 20px;
 }
 
+@media (max-width: 768px) {
+  nav div.menu ul li {
+    padding: 20px;
+  }
+}
+
 nav div.menu ul li a {
   font-size: 1.3em;
   color: #364061;
@@ -59,7 +66,17 @@ nav div.menu ul li a:hover {
   color: #dda0bb;
 }
 
-nav div.menu div.menu-hamburguer img {
+nav div.menu div.icon-menu {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  nav div.menu div.icon-menu {
+    display: block;
+  }
+}
+
+nav div.menu div.icon-menu img.menu-hamburguer {
   width: 100px;
   width: 50px;
   padding: 0 20px;
@@ -67,8 +84,17 @@ nav div.menu div.menu-hamburguer img {
 }
 
 @media (max-width: 768px) {
-  nav div.menu div.menu-hamburguer img {
+  nav div.menu div.icon-menu img.menu-hamburguer {
     display: block;
+  }
+}
+
+@media (max-width: 768px) {
+  .dropdown {
+    transition: .7s all;
+    display: block;
+    text-align: center;
+    background: #ffffff;
   }
 }
 /*# sourceMappingURL=nav.css.map */

@@ -24,7 +24,7 @@
                 <img class="logo" src="./assets/img/logo/logo-azul.png" alt="imagem do logo, representado por...">
             </a>
             <div>
-                <ul>
+                <ul class="dropdown">
                     <li>
                         <a href="index.html">Home</a>
                     </li>
@@ -36,24 +36,23 @@
                     </li>
                 </ul>
             </div>
-            <div class="menu-hamburguer"><a href="#"><img src="./assets/img/menu-hamburguer.png" alt=""></a>  </div>
+            <div class="icon-menu" ><img class="menu-hamburguer" src="./assets/img/menu-hamburguer.png" alt="">  </div>
         </div>
-
     </nav>
     <header>
         <div id="slider">
             <div>
                 <img src="./assets/img/slider1.jpg" alt="Imagem de um rosto de uma mulher coberto pela metade do lado esquerdo por uma sombra de números binários, e ela está sendo apontada por um braço humano de um lado e do outro por um braço robótico. ">
-                <h3>Vamos programar o futuro</h3>
+                <h3><span>Vamos programar o futuro</span></h3>
             </div>
             <div>
                 <img src="./assets/img/mulher-tech.jpg" alt="Descrição da foto do carousel">
-                <h3>Desenvolvendo Divas, Divas Desenvolvedoras</h3>
+                <h3><span>Desenvolvendo Divas <br> Divas Desenvolvedoras</span></h3>
             </div>
             <div>
                 <img src="./assets/img/web-acessibilty_blog.jpg" alt="Descrição da foto do carousel">
-                <h3>Precisamos falar sobre
-                    <strong>Acessibilidade Web</strong>
+                <h3><span>Precisamos falar sobre
+                    <strong>Acessibilidade Web</strong></span>
                 </h3>
             </div>
         </div>
@@ -107,19 +106,19 @@
                         <img src="./assets/img/front-end.png.png" alt="">
                         <h3>Front-End</h3>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
-                        <a class="btn" href="#">Saiba mais</a>
+
                     </div>
                     <div class="back">
                         <img src="./assets/img/back-end.jpg" alt="">
                         <h3>Back-End</h3>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
-                        <a class="btn" href="#">Saiba mais</a>
+
                     </div>
                     <div class="mobile">
                         <img src="./assets/img/android.png" alt="">
                         <h3>Mobile</h3>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                        <a class="btn" href="#">Saiba mais</a>
+
                     </div>
                 </div>
             </div>
@@ -145,37 +144,7 @@
 
     <script src="./assets/js/jquery-3.2.1.min.js"></script>
     <script src="./assets/slick/slick.min.js"></script>
-    <script>
-        $(document).ready(function () {
-            $("#slider").slick({
-                autoplay: true,
-                autoplaySpeed: 3000,
-                arrows: false,
-                dots: true
-            });
-
-            const exibirCarreira = function () {
-                const addStyle = document.querySelector("#exibir-carreira")
-                addStyle.style.display = "block"
-            }
-
-            const front = document.querySelector(".front")
-            front.addEventListener("click", function () {
-                console.log("ook")
-                window.location="front.html"
-            })
-
-            const back = document.querySelector(".back")
-            back.addEventListener("click", function () {
-                exibirCarreira()
-            })
-
-            const mobile = document.querySelector(".mobile")
-            mobile.addEventListener("click", function () {
-                exibirCarreira()
-            })
-        })
-    </script>
+    <script src="./assets/js/script.js"></script>
 </body>
 
 </html>

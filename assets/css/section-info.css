@@ -8,6 +8,12 @@ section.missao div.barra img {
   margin-top: -30px;
 }
 
+@media (max-width: 768px) {
+  section.missao div.barra img {
+    height: 30px;
+  }
+}
+
 section.missao h2 {
   padding: 50px 0;
 }
