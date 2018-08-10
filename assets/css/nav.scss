@@ -37,32 +37,48 @@ nav {
             }
         }
 
-        ul {
-            display: flex;
-            @media (max-width: 768px) {
-                display: none;
-            }
+        div {
 
-
-            li {
-                margin: 0 20px;
-
+            ul {
+                display: flex;
                 @media (max-width: 768px) {
-                    padding: 20px;
+                    display: none;
                 }
 
-                a {
-                    font-size: 1.3em;
-                    color: #364061;
-                    font-weight: 700;
 
-                    &:hover {
-                        color: #dda0bb;
+                li {
+                    margin: 0 20px;
+
+                    @media (max-width: 768px) {
+                        padding: 20px;
+                    }
+
+                    a {
+                        font-size: 1.3em;
+                        color: #364061;
+                        font-weight: 700;
+
+                        &:hover {
+                            color: #dda0bb;
+                        }
+                    }
+
+                    &.fechar {
+                        display: none;
+                        padding: 0;
+        
+                        @media (max-width: 768px) {
+                            display: block;
+                            font-size: 150%;
+                        }
                     }
                 }
             }
+
+            
         }
 
+        
         div.icon-menu {
             display: none;
 

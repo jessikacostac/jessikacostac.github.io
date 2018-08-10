@@ -62,8 +62,12 @@ nav div.barra {
 }
 
 nav div.barra div {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: flex-end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 
 nav div.barra div img {
@@ -78,9 +82,15 @@ nav div.barra div img {
 }
 
 nav div.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   padding: 20px 0;
 }
 
@@ -94,34 +104,48 @@ nav div.menu img.logo {
   }
 }
 
-nav div.menu ul {
+nav div.menu div ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
 @media (max-width: 768px) {
-  nav div.menu ul {
+  nav div.menu div ul {
     display: none;
   }
 }
 
-nav div.menu ul li {
+nav div.menu div ul li {
   margin: 0 20px;
 }
 
 @media (max-width: 768px) {
-  nav div.menu ul li {
+  nav div.menu div ul li {
     padding: 20px;
   }
 }
 
-nav div.menu ul li a {
+nav div.menu div ul li a {
   font-size: 1.3em;
   color: #364061;
   font-weight: 700;
 }
 
-nav div.menu ul li a:hover {
+nav div.menu div ul li a:hover {
   color: #dda0bb;
+}
+
+nav div.menu div ul li.fechar {
+  display: none;
+  padding: 0;
+}
+
+@media (max-width: 768px) {
+  nav div.menu div ul li.fechar {
+    display: block;
+    font-size: 150%;
+  }
 }
 
 nav div.menu div.icon-menu {
@@ -149,6 +173,7 @@ nav div.menu div.icon-menu img.menu-hamburguer {
 
 @media (max-width: 768px) {
   .dropdown {
+    -webkit-transition: .7s all;
     transition: .7s all;
     display: block;
     text-align: center;
@@ -228,9 +253,14 @@ section.missao div.call-to-action {
   margin: 0 auto;
   padding-bottom: 50px;
   width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 @media (max-width: 768px) {
@@ -256,8 +286,12 @@ section.missao div.call-to-action div.title {
 section.missao div.call-to-action div.title div.cards {
   width: 80%;
   padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin: 0 auto;
 }
 
@@ -285,8 +319,11 @@ section.carreiras div {
 }
 
 section.carreiras div div.cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-around;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 @media (max-width: 768px) {
@@ -298,7 +335,8 @@ section.carreiras div div.cards {
 section.carreiras div div.cards div {
   background-color: beige;
   width: 29%;
-  box-shadow: 0px 0px 9px 1px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 0px 9px 1px rgba(0, 0, 0, 0.75);
+          box-shadow: 0px 0px 9px 1px rgba(0, 0, 0, 0.75);
   padding-bottom: 20px;
   margin: 10px;
 }
@@ -310,8 +348,9 @@ section.carreiras div div.cards div {
 }
 
 section.carreiras div div.cards div:hover {
-  box-shadow: 0px 0px 9px 1px #ffb9d8;
-  width: 32%;
+  -webkit-box-shadow: 0px 0px 9px 1px #ffb9d8;
+          box-shadow: 0px 0px 9px 1px #ffb9d8;
+  width: 30%;
 }
 
 @media (max-width: 768px) {
@@ -346,8 +385,12 @@ footer div {
 }
 
 footer div div.barra {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: flex-end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 
 footer div div.barra img {
@@ -394,9 +437,14 @@ section.front-menu div.cards {
   margin: 0 auto;
   padding-bottom: 50px;
   width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 section.front-menu div.cards div.title {
@@ -406,12 +454,14 @@ section.front-menu div.cards div.title {
 }
 
 section.front-menu div.cards div.title:hover {
-  box-shadow: 0px 0px 9px 1px #ffffff;
+  -webkit-box-shadow: 0px 0px 9px 1px #ffffff;
+          box-shadow: 0px 0px 9px 1px #ffffff;
   width: 25%;
 }
 
 section.items article {
-  box-shadow: 0px 0px 9px 1px gray;
+  -webkit-box-shadow: 0px 0px 9px 1px gray;
+          box-shadow: 0px 0px 9px 1px gray;
   width: 70%;
   margin: 0 auto;
   padding: 30px;
@@ -438,8 +488,11 @@ textarea {
 }
 
 div.cursos {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-around;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 div.cursos div {

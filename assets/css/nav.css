@@ -4,8 +4,12 @@ nav div.barra {
 }
 
 nav div.barra div {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: flex-end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 
 nav div.barra div img {
@@ -20,9 +24,15 @@ nav div.barra div img {
 }
 
 nav div.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   padding: 20px 0;
 }
 
@@ -36,34 +46,48 @@ nav div.menu img.logo {
   }
 }
 
-nav div.menu ul {
+nav div.menu div ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
 @media (max-width: 768px) {
-  nav div.menu ul {
+  nav div.menu div ul {
     display: none;
   }
 }
 
-nav div.menu ul li {
+nav div.menu div ul li {
   margin: 0 20px;
 }
 
 @media (max-width: 768px) {
-  nav div.menu ul li {
+  nav div.menu div ul li {
     padding: 20px;
   }
 }
 
-nav div.menu ul li a {
+nav div.menu div ul li a {
   font-size: 1.3em;
   color: #364061;
   font-weight: 700;
 }
 
-nav div.menu ul li a:hover {
+nav div.menu div ul li a:hover {
   color: #dda0bb;
+}
+
+nav div.menu div ul li.fechar {
+  display: none;
+  padding: 0;
+}
+
+@media (max-width: 768px) {
+  nav div.menu div ul li.fechar {
+    display: block;
+    font-size: 150%;
+  }
 }
 
 nav div.menu div.icon-menu {
@@ -91,6 +115,7 @@ nav div.menu div.icon-menu img.menu-hamburguer {
 
 @media (max-width: 768px) {
   .dropdown {
+    -webkit-transition: .7s all;
     transition: .7s all;
     display: block;
     text-align: center;
